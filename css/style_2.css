@@ -55,7 +55,7 @@ nav ul li a :hover {
     text-align: center;
     position: relative;
     
-    background: url("/images/P3.jpeg") no-repeat center center;
+    background: url("P3.jpeg") no-repeat center center;
     background-size: cover;  /* Assure que l’image couvre toute la section */
     width: 100%;
 }
