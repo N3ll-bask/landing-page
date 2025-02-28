@@ -1,0 +1,538 @@
+/* Styles généraux */
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f3f7;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 5px 15%;
+    color: rgb(14, 13, 13);
+    top: 0;left: 0;right: 0;
+    z-index:1000 ;
+    box-shadow: #222;
+}
+h2,p{
+    margin-bottom: 20px;
+   }
+
+.logo img {
+    height: 50px; /* Taille du logo */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+nav ul li a :hover {
+    color: #ffcc00;
+}
+/* La bannière est maintenant une section indépendante */
+.banner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    
+    background: url("/images/P3.jpeg") no-repeat center center;
+    background-size: cover;  /* Assure que l’image couvre toute la section */
+    width: 100%;
+}
+h1{
+    text-align: center;
+    margin: 50px;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    max-width: 700px;
+}
+
+.banner h1 {
+    font-size: 22px;
+    margin: 6px 0;
+}
+ .cta1{
+  
+  margin-left: 55%;
+   border-radius: 5px; 
+  }
+    
+   
+ 
+  /*
+
+      position: relative; 
+    align-items: center ;
+   
+    margin-bottom: 20px;
+    top: 30%;
+     
+    background-color: #fff;
+   
+    
+    
+    height: 42px;
+    margin-top: 40px;
+
+    */
+.cta input
+{
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+
+}
+
+.cta button  {
+    padding: 12px 20px;
+
+}
+
+
+
+    
+
+.cta button:hover {
+    background: darkred;
+}
+
+
+
+
+
+
+
+/*.................................................Styliser les Produits......................................................*/
+
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Mise en page générale */
+body {
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Section Logos */
+.section-logos {
+    background-color: #fca287;
+    padding: 30px;
+    text-align: center;
+    width: 75%;
+    margin-left:220px ;
+}
+
+.section-logos h2 {
+    color: rgb(239, 238, 241);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.logos img {
+    width: 90px;
+    height: 60px;
+}
+
+/* Section Produits */
+.section-produits {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.produits {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.produit {
+    background: #f9f9f9;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.produit img {
+    width: 50px;
+    height: auto;
+}
+
+.produit h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.produit p {
+    font-size: 14px;
+    color: #555;
+}
+
+.produit a {
+    display: block;
+    margin-top: 10px;
+    color: #F08080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #F08080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*.....................................SECTION 3............................................*/
+p{
+    margin-left: 12px;
+}
+
+.section3 {
+    background:white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.section3 h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.section3 h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 40px;
+
+}
+
+.steps {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    transform: scale(1.2); /* Effet de zoom au survol */
+    gap: 20px ;
+    margin-bottom: 50px;
+}
+.step {
+    padding: 20px ;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 220px;
+    box-shadow: 4px 6px 8px black;
+    }
+/*.step {
+    padding: 90px 25px ;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 9px 6px 10px black;
+    transform: scale(1.2); /* Effet de zoom au survol 
+}
+
+}
+.step3 {
+    padding: 90px 0px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 9px 6px 10px black;
+}
+*/
+.step img {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.step h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.step span {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+     
+}
+.social-icons img:hover {
+    transform: scale(1.2); /* Effet de zoom au survol */
+}
+
+
+
+
+
+
+
+/*.......................................get up TRIANGULAIRE..........?.............................................*/
+
+
+.content6 {
+    
+    background-color: black;
+    clip-path: polygon(0 30%, 100% 0, 100% 85%, 0 75%);
+    margin-top: 20px;
+    padding: 20px;
+    
+
+
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.image-left {
+    position: relative;
+    bottom: -30px;
+    left: 430px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 130px;
+}
+
+.text {
+    max-width: 400px;
+    color: white;
+
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text h3 {
+    position: relative;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    left: -150px;
+    
+}
+
+.text p {
+    position: relative;
+    font-size: 14px;
+    margin-bottom: 15px;
+    left: -95px;
+    
+}
+
+.text ul {
+    list-style: none;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    font-size: 14px; 
+}
+
+.bottom-section {
+    text-align: center;
+    color: #fff;
+    margin-right: 450px;
+    bottom: 20px;
+}
+.bottom-section h3{
+    position: relative;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    right: -3px;
+}
+
+.image-right {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: -210px;
+    border-radius: 10px;
+    left: 650px;
+
+}
+/*-................................................FIN GET UP...........................................................*/
+
+
+
+
+
+/*-................................................section 4..................*/
+
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    margin: 60px auto;
+    max-width: 800px;
+    box-shadow: 3px 3px 4px;
+}
+
+.cta-content {
+    max-width: 50%;
+}
+
+.cta-content h3 {
+    color: #030303;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.cta-content p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #090909;
+    margin: 10px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: rgb(247, 3, 3);
+    color: #fdfcfc;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+
+.cta-image {
+    max-width: 50%;
+}
+
+.cta-image img {
+    width: 100%;
+    border-radius: 5px;
+  
+}
+
+/*............................................................FOOTER...................................................... */
+
+/* Footer */
+footer {
+    margin-top: 50px;
+}
+
+/* Partie supérieure du footer */
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E89688; /* Couleur rose */
+    padding: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+    min-width: 150px;
+    
+}
+
+.footer-bottom{
+    background-color: black;
+    color: #f8f8f8;
+    text-align: center;
+    padding: 8px;
+
+}
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Logo */
+.logo img {
+    width: 100px;
+}
+
+/* Icônes des réseaux sociaux */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    }
+
+.social-icons img {
+    height: 30px; /* Taille des icônes */
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Effet de zoom au survol */
+}
